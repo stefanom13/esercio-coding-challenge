@@ -1,0 +1,89 @@
+body {
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.contenitore {
+  background-color: rgba(0, 0, 0, 0.363);
+  width: 900px;
+  margin: auto;
+  height: auto;
+  text-align: center;
+  border-radius: 7px;
+  padding: 5%;
+}
+
+.logo {
+  width: 20%;
+}
+
+h1 {
+  color: #00de01;
+  font-size: 24px;
+  margin: 2px 0;
+}
+
+.line-green {
+  width: 90%;
+  margin: auto;
+  background-color: #00de01;
+  height: auto;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.monopattino {
+  text-align: left;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.nome-monopattino {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.posizione-monopattino {
+  color: white;
+  font-family: 'Shippori Antique', sans-serif;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.posizione-monopattino:before {
+  content: '\1F812';
+  margin-right: 2px;
+}
+
+.status {
+  padding: auto;
+  color: white;
+  font-family: 'Shippori Antique', sans-serif;
+  font-size: 12px;
+}
+
+.charge {
+  height: 25px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.low-charge {
+  width: 20%;
+  background-color: #bd4141;
+}
+
+.good-charge {
+  width: 60%;
+  background-color: #1ec31e;
+}
+
+.medium-charge {
+  width: 40%;
+  background-color: #f4b452;
+}
